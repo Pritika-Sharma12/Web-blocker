@@ -24,6 +24,6 @@ def unblocker():
         
         # removing the blocked websites from the host file
         host_file.truncate()
-
+# calling the functions
 unblocker()
 os.system("ipconfig/flushdns")
